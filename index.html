@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerMatch Uzbekistan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <h1>CareerMatch</h1>
+    <ul>
+      <li><i class="fa fa-home"></i> Dashboard</li>
+      <li><i class="fa fa-briefcase"></i> Jobs</li>
+      <li><i class="fa fa-building"></i> Companies</li>
+      <li><i class="fa fa-comments"></i> Messages</li>
+      <li><i class="fa fa-chart-line"></i> Analytics</li>
+    </ul>
+  </aside>
+
+  <main>
+    <header>
+      <input type="text" placeholder="Search jobs, skills, companies..." />
+      <button id="themeToggle">🌙</button>
+    </header>
+
+    <section class="hero-card">
+      <h2>Welcome back, Student 👋</h2>
+      <p>Find internships, improve your skills, and get matched with companies.</p>
+    </section>
+
+    <section class="stats">
+      <div class="card">Match Score <span>85%</span></div>
+      <div class="card">Applications <span>12</span></div>
+      <div class="card">Saved Jobs <span>8</span></div>
+    </section>
+
+    <section class="jobs-section">
+      <h3>Recommended Jobs</h3>
+      <div class="job-card">
+        <h4>Frontend Developer Intern</h4>
+        <p>Tashkent, Uzbekistan</p>
+        <button>Apply</button>
+      </div>
+      <div class="job-card">
+        <h4>UI/UX Designer</h4>
+        <p>Tashkent, Uzbekistan</p>
+        <button>Apply</button>
+      </div>
+    </section>
+
+    <section class="chart-box">
+      <canvas id="myChart"></canvas>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
